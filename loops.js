@@ -12,5 +12,8 @@ const person ={
     age:25
 }
 for(let x in person){
-    console.log("person details: " + person[x])
+    console.log("person details: " + x + ":" + person[x])
+}
+for(let x in person){
+    console.log("person details: " + x + ":" + person.x)
 }
