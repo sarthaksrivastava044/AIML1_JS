@@ -1,0 +1,21 @@
+// Show/Hide paragraph
+    document.getElementById("toggleBtn").addEventListener("click",
+    function (){
+        if(paragraph.style.display === "none"){
+            paragraph.style.display = "block";
+        } else {
+            paragraph.style.display = "none";
+        }
+    
+    });
+    
+    // Reset page
+    document.getElementById("resetBtn").addEventListener("click",
+    function (){
+    heading.innerHTML = "Welcome to JavaScript Lab";
+    paragraph.style.display ="block";
+    paragra.style.fontSize ="16px";
+    document.body.style.background = "#f4f4f4";
+    input.value = "";
+    fontSize = 16;
+})

@@ -85,4 +85,8 @@ var user={name:"jeet",age:50};
 localStorage.setItem("user",JSON.stringify(user));
 //retrieve item 
 var data=JSON.parse(localStorage.getItem("user"));
-console.log(data.name);
+console.log(data.)
+
+
+
+
